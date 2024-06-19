@@ -1,0 +1,45 @@
+{
+    "valid":{
+        "admin":{
+            "email": "admin_test@velorona.com",
+            "password": "P@$$W0Rd"
+        },
+        "payroll":{
+            "email": "payroll_test@velorona.com",
+            "password": "P@$$W0Rd"
+        },
+        "approver":{
+            "email": "approver_test@velorona.com",
+            "password": "P@$$W0Rd"
+        },
+        "employee":{
+            "email": "employee_test@velorona.com",
+            "password": "P@$$W0Rd"
+        },
+        "user":{
+            "email": "admin@clinchtech.com",
+            "password": "P@$$W0Rd",
+            "newPassword": "P@$$W0Rd"
+        }
+    },
+    "invalid":{
+        "email": "adminclinchtech.com",
+        "password": "P@$$WoRd"
+    },
+    "mismatched":{
+        "email": "admin@clinchtech.com",
+        "password": "P@ssW0Rd"
+    },
+    "inactiveUser":{
+        "email": "approver@clinchtech.com",
+        "password": "bKEuGEiW"
+    },
+    "archivedUser":{
+        "email": "abc@clinchtech.com",
+        "password": "i7LTZMRO"
+    },
+    "newUser":{
+        "email": "newUser@clinchtech.com",
+        "password": "APSnzzL6"
+    }
+}

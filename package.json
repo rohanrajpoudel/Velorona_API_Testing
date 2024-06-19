@@ -1,0 +1,17 @@
+{
+  "name": "velorona_api_testing",
+  "version": "1.0.0",
+  "description": "A new Repo for API Testing",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
