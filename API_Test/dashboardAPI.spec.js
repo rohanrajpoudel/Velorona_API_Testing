@@ -583,7 +583,7 @@ test.describe('Access/Refresh Token, User/Compay Id - Employee', () => {
     })
 });
 
-test.describe('Dashboard_084 - Employee', () => {
+test.describe('Dashboard_098 - Employee', () => {
     test('Verify data of the Company Details Submodule within General Page', async ({ request }) => {
         //api get request for Company Overview for given Company Id
         const response = await request.get(`/api/v1/dashboards/employees/${companyId}/company-overview`, {
@@ -608,7 +608,7 @@ test.describe('Dashboard_084 - Employee', () => {
     })
 });
 
-test.describe('Dashboard_091 - Employee', () => {
+test.describe('Dashboard_105 - Employee', () => {
     test('Verify data of the Latest Timesheets Submodule within General Page', async ({ request }) => {
         //api get request for Company Overview for given Company Id
         const response = await request.get(`/api/v1/dashboards/employees/${companyId}/latest-timesheets`, {
